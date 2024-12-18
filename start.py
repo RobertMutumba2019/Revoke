@@ -1,17 +1,11 @@
-#Printing in python
-name = "Mutumba"
-
-print("Hello " +name)
-
 #dictionary
-
-person = {
-    "name": "MAK",
-    "age" : 24
+pers = {
+   "name": "MAK",
+  "age" : 24
 }
-print(person)
-print(person["name"])
-print(person["age"])
+print(pers)
+print(pers["name"])
+print(pers["age"])
 
 # Variables
 number = 5
@@ -32,3 +26,6 @@ def sub():
 print(sub())
 #functions are sorted
 
+#Constructor $ dictionary
+person=dict(name='Robert', age=23)
+print(person)
