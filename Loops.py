@@ -4,12 +4,15 @@
 
 list_of_Fruits = ["Mango", "Apple", "Pineapple", "Lemon"]
 
+
 for item in list_of_Fruits:
     print(item)
 
 #while loop
-x=5
 
-while(x>4):
-    print("High probablity")
-    break
+def flat(x,y):
+    return x/y
+
+results=flat(25,12)
+res=float(results)
+print(res)
