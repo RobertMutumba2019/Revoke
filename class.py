@@ -41,3 +41,29 @@ M=Math()
 
 resu=M.gift(15,8)
 print(resu)
+
+#Earlier we said that the selft keyword represents an object/instance of a class
+
+#let's have a look on the contructor
+
+class Car:
+    def __init__(self):
+
+        #Initialize the Car with default attributes
+        self.make = "Toyota"
+        self.model = "Corolla"
+        self.year = 2020
+
+# Creating an instance using the default constructor
+car = Car()
+print(car.make)
+print(car.model)
+print(car.year)
+
+class student:
+    def __init__(self):
+        self.name="Robert"
+        self.year=4
+    
+std=student()
+print(std.name)
