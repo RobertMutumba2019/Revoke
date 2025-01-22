@@ -26,7 +26,7 @@ print(c.hump(txt))
 c = camelcase.CamelCase()
 
 # Convert a string to CamelCase
-text = "helloworld from python"
+text = "hello world from python"
 camel_case_text = c.hump(text)
 
 print(camel_case_text)  # Output: "helloWorldFromPython"
