@@ -12,6 +12,8 @@ def birth(name):
     print('Happy birthday')
     print('Happy birthday')
     print('Happy birthday')
+    print('Happy birthday Angel')
+
     print('Happy birthday ' + name)
     
 birth('Angel')
