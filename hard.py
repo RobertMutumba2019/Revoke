@@ -24,5 +24,8 @@ n=int(nu2)
 result = v/n
 res= float(result)
 print(res)
+
+resu=x*y-z
+print(resu)
 #Here we are inputing values vai tyhe command prompt
 
